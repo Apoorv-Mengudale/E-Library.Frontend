@@ -17,7 +17,7 @@ const About = () => {
   }, []);
   return (
     <>
-      <div>About</div>
+      <div>Test About</div>
     </>
   );
 };
