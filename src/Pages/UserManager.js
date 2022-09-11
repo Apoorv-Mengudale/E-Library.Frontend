@@ -98,7 +98,7 @@ const UserManager = () => {
     e.preventDefault();
     loader.setLoading(true);
     axios
-      .post("/Books/addBook", JSON.stringify(addUserForm), _headers)
+      .post("/Users/register", JSON.stringify(addUserForm), _headers)
       .then((response) => {
         fetchUsers();
         Swal.fire("User saved successfully", "", "success");
